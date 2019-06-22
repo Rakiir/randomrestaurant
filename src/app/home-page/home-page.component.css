@@ -1,0 +1,48 @@
+/* html, body, div {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: url("https://i.pinimg.com/originals/96/f8/c6/96f8c6c9706304a438dcf24ee1ef37c2.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+} */
+
+h1 {
+  text-align: center;
+}
+ .center, button fancy-button {
+    position: absolute;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    border: 5px solid white;
+    padding: 100px;
+    text-align: center;
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+} */
+/* .center {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://i.pinimg.com/originals/96/f8/c6/96f8c6c9706304a438dcf24ee1ef37c2.jpg");
+}
+.center {
+  top: 50%;
+  left: 50%;
+} */
+
+/* .column {
+  float: left;
+  width: 75%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
