@@ -12,12 +12,16 @@ export class TopBarComponent implements OnInit {
   result;
   lastUDRandom;
   lastBvRandom;
+  locName1;
+  locName2;
 
   constructor() {  }
   ngOnInit() {
     this.result = "Random Restaurants";
     this.UDRestaurants = UDFood;
     this.BvckRestaurants = BeavercreekFood;
+    this.locName1 = "UD";
+    this.locName2 = "Beavercreek";
   }
 
   rollUD() {
